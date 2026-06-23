@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students' Portal - University of Jos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        :root {
+            --unijos-blue: #1e3a8a;
+        }
+        
+        .header-bg {
+            background: linear-gradient(to right, #1e3a8a, #2a4a9c);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15);
+        }
+
+        /* Carousel Styles */
+        .slideshow-container {
+            position: relative;
+            max-width: 1200px;
+            margin: 2rem auto;
+            overflow: hidden;
+            border-radius: 16px;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        }
+
+        .mySlides {
+            display: none;
+            position: relative;
+        }
+
+        .mySlides img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+        }
+
+        .slide-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+            color: white;
+            padding: 2.5rem 2rem 1.5rem;
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.6);
+            color: white;
+            border: none;
+            padding: 14px 16px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+            z-index: 10;
+        }
+
+        .prev { left: 20px; border-radius: 50%; }
+        .next { right: 20px; border-radius: 50%; }
+
+        .prev:hover, .next:hover {
+            background: #1e40af;
+        }
+
+        .dots {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 12px;
+            width: 12px;
+            margin: 0 6px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .dot.active {
+            background-color: #1e40af;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Top Bar -->
+    <div class="bg-[#0f172a] text-white py-2 text-sm">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <div class="flex gap-5">
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-google"></i></a>
+            </div>
+            <a href="#" class="hover:text-yellow-400">Support</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header-bg text-white">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <img src="https://via.placeholder.com/70x70/1e3a8a/ffffff?text=UNIJOS" alt="UNIJOS Logo" class="w-14 h-14">
+                <div class="text-2xl font-bold tracking-wider">UNIVERSITY OF JOS</div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#" class="hover:text-yellow-300 transition-colors">SIGN UP</a>
+                <a href="#" class="hover:text-yellow-300 transition-colors">LOGIN</a>
+                <a href="#" class="hover:text-yellow-300 transition-colors">CHECK ADMISSION</a>
+                <a href="#" class="hover:text-yellow-300 transition-colors">FORMS APPLICATION</a>
+                <a href="#" class="hover:text-yellow-300 transition-colors">PAY SUNDRIES</a>
+                <a href="#" class="hover:text-yellow-300 transition-colors">FAQs</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Title -->
+    <div class="bg-white py-8 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6">
+            <h1 class="text-4xl font-bold text-gray-800">Students' <span class="text-blue-700">Portal</span></h1>
+        </div>
+    </div>
+
+    <!-- Main Carousel (Slideshow) -->
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="slideshow-container">
+            
+            <!-- Slide 1 -->
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/1015/1200/500" alt="Graduation Ceremony">
+                <div class="slide-content">
+                    <div class="max-w-2xl">
+                        <span class="inline-block bg-emerald-500 text-white text-xs font-bold px-4 py-1.5 rounded-full mb-3">UPCOMING</span>
+                        <h2 class="text-3xl font-semibold">Institute of Education (Long Vacation Programme)</h2>
+                        <p class="mt-2 text-lg">₦10,000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/1027/1200/500" alt="Students Celebration">
+                <div class="slide-content">
+                    <div class="max-w-2xl">
+                        <span class="inline-block bg-emerald-500 text-white text-xs font-bold px-4 py-1.5 rounded-full mb-3">UPCOMING</span>
+                        <h2 class="text-3xl font-semibold">Preliminary French</h2>
+                        <p class="mt-2 text-lg">Get into our predegree programme study for one</p>
+                        <p class="text-xl font-bold mt-1">₦10,000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/106/1200/500" alt="Computer Lab Screening">
+                <div class="slide-content">
+                    <div class="max-w-2xl">
+                        <span class="inline-block bg-blue-600 text-white text-xs font-bold px-4 py-1.5 rounded-full mb-3">ON-GOING</span>
+                        <h2 class="text-3xl font-semibold">2023 UTME/DE Screening</h2>
+                        <p class="mt-2 text-lg">Search for your JAMB Reg No to begin registration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more slides here if needed -->
+
+            <!-- Navigation Buttons -->
+            <button class="prev" onclick="plusSlides(-1)">❮</button>
+            <button class="next" onclick="plusSlides(1)">❯</button>
+        </div>
+
+        <!-- Dots -->
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <!-- Chat Widget -->
+    <div onclick="alert('Chat support coming soon!')" 
+         class="fixed bottom-8 right-8 bg-blue-700 hover:bg-blue-800 w-16 h-16 rounded-2xl flex items-center justify-center shadow-2xl cursor-pointer transition-transform hover:scale-110">
+        <i class="fas fa-comment-dots text-4xl"></i>
+        <div class="absolute -top-1 -right-1 bg-yellow-400 text-blue-900 text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full">1</div>
+    </div>
+
+    <!-- Footer Placeholder -->
+    <footer class="bg-[#0f172a] text-gray-400 py-16 mt-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-sm">Footer image will be inserted here when you send it.</p>
+            <p class="mt-6 text-xs opacity-60">© 2026 University of Jos • Students' Portal (Cloned & Tempered)</p>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        // Auto slide every 6 seconds
+        setInterval(() => {
+            plusSlides(1);
+        }, 6000);
+    </script>
+</body>
+</html>

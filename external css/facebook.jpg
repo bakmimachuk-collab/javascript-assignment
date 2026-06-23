@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>UNIJOS</title>
+    <link rel="icon" type="image/png" href="/Content/Images/ujlogo.png">
+
+    <!-- Meta OG -->
+    <meta name="keywords" content="The primary mission of the University of Jos is to serve the people of Nigeria and humanity at large by:Encouraging and promoting a culture of ... ">
+    <meta name="description" content="UNIJOS">
+    <!-- /Meta OG -->
+    <!-- Twitter Card -->
+    <!-- Stylesheet -->
+    <link href="/Content/UnijosUI/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/Content/UnijosUI/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="/Content/UnijosUI/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="/Content/UnijosUI/css/css-plugin-collections.css" rel="stylesheet" />
+    <!-- CSS | menuzord megamenu skins -->
+    <link href="/Content/UnijosUI/css/menuzord-megamenu.css" rel="stylesheet" />
+    <link id="menuzord-menu-skins" href="/Content/UnijosUI/css/menuzord-skins/menuzord-boxed.css" rel="stylesheet" />
+    <!-- CSS | Main style file -->
+    <link href="/Content/UnijosUI/css/style-main.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Preloader Styles -->
+    <link href="/Content/UnijosUI/css/preloader.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Custom Margin Padding Collection -->
+    <link href="/Content/UnijosUI/css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Responsive media queries -->
+    <link href="/Content/UnijosUI/css/responsive.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+    <!-- Revolution Slider 5.x CSS settings -->
+    <link href="/Content/UnijosUI/js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/UnijosUI/js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/UnijosUI/js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css" />
+
+    <!-- CSS | Theme Color -->
+    <link href="/Content/UnijosUI/css/colors/theme-skin-color-set7.css" rel="stylesheet" type="text/css">
+
+    <!-- external javascripts -->
+    <script src="/Content/UnijosUI/js/jquery-2.2.4.min.js"></script>
+    <script src="/Content/UnijosUI/js/jquery-ui.min.js"></script>
+    <script src="/Content/UnijosUI/js/bootstrap.min.js"></script>
+    <!-- JS | jquery plugin collection for this theme -->
+    <script src="/Content/UnijosUI/js/jquery-plugin-collection.js"></script>
+
+    <!-- Revolution Slider 5.x SCRIPTS -->
+    <script src="/Content/UnijosUI/js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+
+</head>
+
+<body class="has-side-panel side-panel-right fullwidth-page">
+
+    <div id="wrapper" class="clearfix">
+        <!-- preloader -->
+        
+
+        <!-- Header -->
+        <header id="header" class="header">
+            <div class="header-top bg-theme-colored border-top-theme-colored2-2px sm-text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="widget">
+                                <ul class="styled-icons icon-sm icon-white">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="widget">
+                                <ul class="list-inline text-right flip sm-text-center">
+                                    
+                                    <li>
+                                        <a class="text-white" href="/Home/Support">Support</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-nav">
+                <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
+                    <div class="container">
+                        <nav id="menuzord-right" class="menuzord default theme-colored">
+                            <a class="menuzord-brand pull-left flip mt-20 mt-sm-10 mb-sm-20 pt-5" href="/"><img src="/Content/UnijosUI/images/logo-wide.png" alt=""></a>
+                            <ul class="menuzord-menu">
+                                <li><a href="/Account/SignUp">SIGN UP</a></li>
+                                <li><a href="/Account/Login">LOGIN </a></li>
+                                <li><a href="/Account/CheckAdmission">CHECK ADMISSION </a></li>
+                                <li>
+                                    <a href="#">FORMS APPLICATION</a>
+                                    <ul class="dropdown">
+                                        <li><a href="/UtmeApplicants/CheckUtmeAdmission">2025 UTME/DE SCREENING</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Masters">Masters Programme</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Phd">Doctorate Programmes (Sciences)</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Post_Graduate">Post-Graduate Diploma Programmes</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Phd">Doctorate Programmes (Non-Sciences)</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=MBA">MBA</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=ICT">ICT - Certifcate/Diploma Programme</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Institute_Of_Education">IOE -Institute of Education (Programmes with Practicals)</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Institute_Of_Education">IOE - Institute of Education (Programmes without Practicals)</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Preliminary_French">Preliminary French</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=IJMB">IJMB (Arts and Social Sciences)</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=IJMB">IJMB (Sciences)</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Post_Graduate">WATER-SANITATION AND HYGIENE (WASH)</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=Diploma">Diploma</a></li>
+                                            <li><a href="/Account/AddmissionRegistration?programme=UnderGraduate">Part-Time Undergraduate</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                                <li><a href="/MarketPlace">PAY SUNDRIES</a></li>
+                                <li><a href="/Faqs/Faq">FAQs</a> </li>
+
+
+                                
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+
+
+<!-- Start main-content -->
+<div class="main-content">
+    <section id="courses" class="bg-silver-light">
+        <div class="container">
+            <div class="section-title mb-20">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="title mb-5">Students' <span class="text-theme-colored2"><Fig>Portal</Fig></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel-3col owl-nav-top" data-nav="tru">
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm9.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">2023 UTME/DE Screening</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">ON-GOING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">
+                                            Search for your Jamb Reg No to begin registration.
+                                            <br /><strong>The screening charges are non-refundable</strong>
+                                        </p>
+                                        <div class="author-thumb">
+                                            
+                                        </div>
+                                    </div>
+                                    <br />
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm4.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">Part-Time Undergraduate</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">UPCOMING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">Get to do you Bsc programme and work at the same time as you go through our evening classes.</p>
+                                        <div class="author-thumb">
+                                            <h5 class="btn btn-primary btn-xs">N10,000</h5>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm2.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">Remedial Programme</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">ON-GOING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">Get into our predegree programme study for one year and get to study a Bsc course of your choice. </p>
+                                        <div class="author-thumb">
+                                            <h5 class="btn btn-primary btn-xs">N15,000</h5>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm3.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">Postgraduate Programme</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">UPCOMING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">Apply for an Msc course of your choice to more skills that will help you in your career path. </p>
+                                        <div class="author-thumb">
+                                            <h5 class="btn btn-primary btn-xs">N25,000</h5>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm5.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">Diploma Programme</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">UPCOMING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">Get into our predegree programme study for two years and get to study a Bsc course of your choice.</p>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm6.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">IJMB Programme</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">UPCOMING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">Get into our predegree programme study for one year and get to study a Bsc course of your choice.</p>
+                                        <div class="author-thumb">
+                                            <h5 class="btn btn-primary btn-xs">N7,500</h5>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm7.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">Institute of Education<br/>(Long Vacation Programme)</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">UPCOMING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">Get into our institute of education, to equip you to be an accurate educator.</p>
+                                        <div class="author-thumb">
+                                            <h5 class="btn btn-primary btn-xs">N10,000</h5>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="course-single-item bg-white border-1px clearfix">
+                                    <div class="course-thumb">
+                                        <img class="img-fullwidth" alt="" src="/Content/Images/sm8.jpg">
+                                        <div class="course-top-meta">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="course-details clearfix p-20 pt-15">
+                                        <div class="course-top-part">
+                                            <a href="page-course-details.html"><h4 class="mt-5 mb-5">Preliminary French</h4></a>
+                                            <h5 class="text-gray font-12 mt-0">UPCOMING</h5>
+                                        </div>
+                                        <p class="course-description mt-15 mb-0">Get into our predegree programme study for one year and get to study a Bsc course of your choice.</p>
+                                        <div class="author-thumb">
+                                            <h5 class="btn btn-primary btn-xs">N10,000</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <br />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<!-- end main-content -->
+
+
+<script type="text/javascript">
+    $(".btn-form").click(function () {
+        var url = "/Account/AddmissionRegistration";
+        window.open('' + url + '', '_self');
+    });
+</script>
+
+        <!-- Footer -->
+        <footer id="footer" class="footer" data-bg-color="#20232E">
+            <div class="footer-bottom" data-bg-color="#1B1D26">
+                <div class="container pt-10 pb-10">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="font-14 sm-text-center m-0">Copyright &copy;2018 <span class="text-theme-colored2">University of Jos</span>. All Rights Reserved</p>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <div class="widget no-border m-0">
+                                <ul class="list-inline sm-text-center mt-5 font-12">
+                                    
+
+                                    <li>
+                                        <a href="/Home/Support">Support</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'es,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--Start of Tawk.to Script-->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5c7906313341d22d9ce6c71a/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <!--End of Tawk.to Script-->
+    <!-- Footer Scripts -->
+    <!-- JS | Chart-->
+    <script src="/Content/UnijosUI/js/chart.js"></script>
+    <!-- JS | Custom script for all pages -->
+    <script src="/Content/UnijosUI/js/custom.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+          (Load Extensions only on Local File Systems !
+           The following part can be removed on Server for On Demand Loading) -->
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="/Content/UnijosUI/js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+    
+</body>
+
+</html>

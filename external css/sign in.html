@@ -1,0 +1,233 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    min-height:100vh;
+}
+
+/* HEADER */
+
+header{
+    height:120px;
+
+    background-image:url("https://images.unsplash.com/photo-1562774053-701939374585?w=1200");
+    background-size:cover;
+    background-position:center;
+}
+
+.overlay{
+    background:rgba(0,0,0,.4);
+    height:100%;
+
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    margin-left:80px;
+    gap:10px;
+}
+
+.logo img{
+    width:60px;
+}
+
+.logo h1{
+    color:white;
+    font-size:28px;
+}
+
+/* CONTAINER */
+
+.container{
+    display:flex;
+    justify-content:center;
+    padding-top:60px;
+}
+
+.box{
+    width:750px;
+    background:white;
+
+    border:1px solid #d8d8d8;
+    border-radius:10px;
+
+    padding:20px;
+
+    display:flex;
+}
+
+.left{
+    width:50%;
+    padding:15px;
+    border-right:1px solid #ddd;
+}
+
+.left h2{
+    color:#2f4057;
+    margin-bottom:20px;
+}
+
+.left p{
+    font-size:24px;
+    font-weight:bold;
+    color:#4d4d4d;
+    margin-bottom:20px;
+}
+
+.left hr{
+    margin-bottom:25px;
+}
+
+.left a{
+    text-decoration:none;
+    color:gray;
+}
+
+.right{
+    width:50%;
+    padding:15px 30px;
+}
+
+.right label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.right input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    margin-bottom:25px;
+}
+
+.right button{
+    background:#2f7ac4;
+    color:white;
+    border:none;
+
+    padding:12px 30px;
+
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.right button:hover{
+    background:#2468aa;
+}
+
+/* FOOTER */
+
+footer{
+    position:fixed;
+    bottom:0;
+
+    width:100%;
+    background:#222c3b;
+    color:white;
+
+    padding:20px 80px;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+footer span{
+    color:#ff7a1a;
+}
+
+.links{
+    display:flex;
+    gap:20px;
+}
+
+.links a{
+    text-decoration:none;
+    color:white;
+}
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="overlay">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+                <h1>UNIVERSITY OF JOS</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- SIGNUP BOX -->
+    <section class="container">
+
+        <div class="box">
+
+            <div class="left">
+
+                <h2>Instruction(s)</h2>
+
+                <p>Please type in Email Address.</p>
+
+                <hr>
+
+                <a href="#">Back to Login Page</a>
+
+            </div>
+
+            <div class="right">
+
+                <label>Email*</label>
+
+                <input
+                type="email"
+                placeholder="Enter Email here">
+
+                <button>Get Started</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="copyright">
+            Copyright ©2026
+            <span>University Of Jos</span>.
+            All Rights Reserved
+        </div>
+
+        <div class="links">
+            <a href="#">FAQ</a>
+            <a href="#">Support</a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+    
+</body>
+</html>
