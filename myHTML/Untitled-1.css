@@ -1,0 +1,90 @@
+    }
+    nav a{
+        font-size: 1.3em;
+        color: black;
+        padding-bottom:5px ;
+        text-decoration-line:none ;
+    }
+    nav a:hover{
+        color:goldenrod ;
+        border-bottom: 2px solid whitesmoke; 
+
+    } 
+    /*my */
+    .machuk{
+        margin-top:15px;
+        height: 100px;;
+        border-radius: 6px;  
+        background-color: bisque; 
+        background:url(groundwaterdiagram.webp);
+        position : relative;
+        box-shadow: 0 px 4px 4px gainsboro;
+        margin: bottom 25px; 
+        
+
+    }
+    article, aside{
+        display:inline-flexbox;
+        vertical-align:top;
+        text-align: justify;
+    }
+    .article{
+        width:60% ;
+        margin-right:15px ;
+    }
+    aside{
+        position: relative;
+        width:35% ;
+        background-color: #333;
+        box-shadow:0px 2px 5px darkgrey ;
+        border-radius: 5px;
+        padding: 10px;
+
+
+    }    
+    nav a{
+        font-size: 1.3em;
+        color: black;
+        padding-bottom:5px ;
+        text-decoration-line:none ;
+    }
+    nav a:hover{
+        color:goldenrod ;
+        border-bottom: 2px solid whitesmoke; 
+
+    } 
+    /*my */
+    .machuk{
+        margin-top:15px;
+        height: 100px;;
+        border-radius: 6px;  
+        background-color: bisque; 
+        background:url(groundwaterdiagram.webp);
+        position : relative;
+        box-shadow: 0 px 4px 4px gainsboro;
+        margin: bottom 25px; 
+        
+
+    }
+    article, aside{
+        display:inline-flexbox;
+        vertical-align:top;
+        text-align: justify;
+    }
+    .article{
+        width:60% ;
+        margin-right:15px ;
+    }
+    aside{
+        position: relative;
+        width:35% ;
+        background-color: #333;
+        box-shadow:0px 2px 5px darkgrey ;
+        border-radius: 5px;
+        padding: 10px;
+
+
+    }
+    nav  .li{
+        display: inline-block;
+            margin-right:  2px;}
