@@ -64,7 +64,7 @@ console.log(price);
 var hobby = "reading";
 console.log(hobby);
 
-  //list 3 java script operator and three examples each
+  //list 3 java script logical operator and three examples each
 // ===============================
 // LOGICAL AND (&&)
 // these Returns true if BOTH conditions are true
@@ -94,6 +94,7 @@ console.log(!(10 > 5));   // false
 console.log(!(8 < 5));    // true
 console.log(!(20 == 20)); // false
 
+//write 2 cases using promt and alert
 // ===============================
 // ALERT()  (these is use to display a message to the user)
 // ===============================
